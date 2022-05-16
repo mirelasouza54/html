@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <p>Resultado das 4 operações com 5 e 10</p>
+    <p id= "caixa1"> </p>
+
+    <script>
+        function soma (p1,p2){
+            return p1 + p2;
+        }
+        document.getElementById("caixa1").innerHTML=soma(5,10);
+    </Script>
+
+    <p id= "caixa2"> </p>
+
+    <script>
+        function subtrai (p1,p2){
+            return p1 - p2;
+        }
+        document.getElementById("caixa2").innerHTML=subtrai(5,10);
+    </script>
+
+    <p id= "caixa3"> </p>
+    <script>
+        function multiplica (p1,p2){
+            return p1 * p2;
+        }
+        document.getElementById("caixa3").innerHTML=multiplica(5,10);
+    </script>
+
+    <p id= "caixa4"> </p>
+    <script>
+        function dividir (p1,p2){
+            return p1 / p2;
+        }
+        document.getElementById("caixa4").innerHTML=dividir(5,10);
+    </script>
+    
+    </head>
+</html>
